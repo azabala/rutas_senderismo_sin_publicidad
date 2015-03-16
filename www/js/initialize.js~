@@ -768,8 +768,8 @@ function mapsAroundResults(){
 function showMapPage(){ 
 	 num_map_views++;
 	 
-	// if(num_map_views % 7 == 0)
-	 //	window.plugins.AdMob.createInterstitialView();
+	 if(num_map_views % 7 == 0)
+	 	window.plugins.AdMob.createInterstitialView();
 	 
 	 if(map)
 		map.invalidateSize(true);
