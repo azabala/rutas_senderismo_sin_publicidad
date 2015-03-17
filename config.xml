@@ -9,6 +9,29 @@
     </author>
 
     <content src="index.html" />
+    
+    
+    <icon src="./res/icon0.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="./res/icon0.png" gap:platform="android" gap:qualifier="en-ldpi" />
+	<icon src="./res/icon0.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="./res/icon1.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="./res/icon1.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="./res/icon1.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	
+	<gap:splash src="./res/ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="./res/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="./res/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="./res/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+	
+	<gap:splash src="./res/land-ldpi.png" gap:platform="android" gap:qualifier="land-ldpi" />
+	<gap:splash src="./res/land-mdpi.png" gap:platform="android" gap:qualifier="land-mdpi" />
+	<gap:splash src="./res/land-hdpi.png" gap:platform="android" gap:qualifier="land-hdpi" />
+	<gap:splash src="./res/land-xhdpi.png" gap:platform="android" gap:qualifier="land-xhdpi" />
+	
+	
+	
+	
+
     <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
