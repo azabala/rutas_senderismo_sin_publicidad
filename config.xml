@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.buscamapas.rutas_senderismo_sin_publicidad" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.buscamapas.rutas_senderismo_sin_publicidad" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Rutas Senderismo Sin Publicidad</name>
     <description>
         'Rutas de Senderismo' es una app que te permite acceder a más de 150.000 rutas de senderismo repartidas por todo el mundo. Podrás descargar mapas a tu dispositivo en formato 'kml' y navegar con los principales navegadores GPS(OruxMaps, Google Maps, etc), siempre con la cartografía de fondo de Open Street Map. En breve podrás ver panorámicas y fotografías de las zonas que estás visualizando en el mapa.
