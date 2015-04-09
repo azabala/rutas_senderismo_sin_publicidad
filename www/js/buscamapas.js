@@ -1007,7 +1007,7 @@ function updateMapListAroundYou(y, x){
 				list += "<li data-role=\"list-divider\" role=\"heading\"  >"+distance+": "+dist.toFixed(3)+" Km.<br>"+dureza+": "+hard_index+
 					'<p  style="text-align:right"><strong>'+routeLength+": "+line_length.toFixed(2)+' km. <br>'+desnivel+': '+(max_h - min_h)+' m.</strong></p></li>';  
                	list += '<li >' +
-                    '<a data-role="button" data-theme="b" style="background-color:white" href=\"#map_page\" onClick="loadMap(mapsArray['+index+'])"><h2 style="white-space: normal">'+title+'</h2><p>'+descr+'</p></a>'+
+                    '<a data-role="button" data-theme="b" style="background-color:white" href=\"#map_page\" onClick="loadMap(mapsArray['+newindex+'])"><h2 style="white-space: normal">'+title+'</h2><p>'+descr+'</p></a>'+
                     '</li>';
                 
                 
@@ -1178,7 +1178,7 @@ function updateMapList(){
 	                list += "<li data-role=\"list-divider\" role=\"heading\"  >"+distance+": "+dist.toFixed(3)+" Km.<br>"+dureza+": "+hard_index+
 					'<p  style="text-align:right"><strong>'+routeLength+": "+line_length.toFixed(2)+' km. <br>'+desnivel+': '+(max_h - min_h)+' m.</strong></p></li>';  
 	                list += '<li >' +
-                     '<a data-role="button" data-theme="b" style="background-color:white" href=\"#map_page\" onClick="loadMap(mapsArray['+index+'])"><h2 style="white-space: normal">'+title+'</h2><p>'+descr+'</p></a>'+
+                     '<a data-role="button" data-theme="b" style="background-color:white" href=\"#map_page\" onClick="loadMap(mapsArray['+newindex+'])"><h2 style="white-space: normal">'+title+'</h2><p>'+descr+'</p></a>'+
                      '</li>';
 	                
 	                	
