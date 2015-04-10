@@ -34,7 +34,6 @@
 	<gap:splash src="res/land-xhdpi.png" gap:platform="android" gap:qualifier="land-xhdpi" />
 	-->
 	
-   <!-- <preference name="phonegap-version" value="3.5.0" />-->
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
@@ -98,6 +97,8 @@
      <gap:plugin name="com.adobe.plugins.gaplugin" />
      
      <gap:plugin name="com.rjfun.cordova.plugin.admob" source="plugins.cordova.io"/>
+     
+     <gap:plugin name="net.tunts.webintent" version="0.2.1" />
 
     <access origin="*" />
 </widget>
